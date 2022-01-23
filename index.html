@@ -1,96 +1,83 @@
+<!DOCTYPE html>
 <html>
 
 <head>
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="portfolio.css">
-    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <title>Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
-    <!-- Link the section MyInspiration in the menu bar below -->
 
-<ul class="menu">
-        <li class="link"><a href="#bio">About</a></li>
-        <li class="link"><a href="#References">My favorite books</a></li>
-        <li class="link"><a href="#Mywork">My work</a></li>
-        <li class="link"><a href="#Inspiration">Inspiration</a></li>
-        <li class="link">Contact</li>
-    
-        </ul>
-  
-<br>
-          <br>
-          <br>
-<img src="https://m.media-amazon.com/images/M/MV5BNjQ3NWNlNmQtMTE5ZS00MDdmLTlkZjUtZTBlM2UxMGFiMTU3XkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_.jpg">
-      <h1> My favourite Book Series <br><span id="name>">Harry Potter</span></h1></div>
-    <section>
-  
-<section id="bio">
- 
-    <h1></h1><div class="line"></div>
-  
-  
-  <p> I love Harry Potter because it is interesting and I love books and movies that have magic and  unrealistic creatures. The characters are really good like Harry Potter, Ron and Ginny Weasley, Hermione Granger, Luna Lovegood and Neville Longbottom. The favourite fantasy creatures are Dragons, Pheonixes, Hippogriff and the Baslisk.</p><p> It is so wonderful to see the characters and the acters to grow up. There is also sad parts which are the parts when the characters pass away in the books. There is a reason for those  bmdeaths. You can learn love and friendship from them. </p><p>In the wizarding world there is a sport called Quidditch. It is when you play on a broomstick. But I'm not telling any more, but if you would like to find out more. Read the books and watch the movies.</p>
-  </section>
-  
-    <section id="References">
-        
-        <h1>Here is my Favourite book and reviews on it</h1>
-        
-        <div class="line"></div>
-         
-         
-        
-         <!--  Fill in the source of the <iframe> tag below to:  https://freelymagazine.com/2018/02/14/book-review-i-am-mahala/ -->
-        <iframe width="700" height="700" src="https://freelymagazine.com/2018/02/14/book-review-i-am-mahala/"></iframe>
-         
-         
-         
-         
-        <div class="jj">
-            <!--  Fill in the href of the <a> tag below to : https://en.wikipedia.org/wiki/Harry_Potter --> 
-            <a href="https://en.wikipedia.org/wiki/Harry_Potter" target="_blank">Click here to view my favorite book of all time </a>
-        </div>
-     </section>   
-        
-    <section id="Mywork">
-        <h1>I also love writing short passages</h1>
-        
-        <div class="line"></div>
-        
-       
-        <button class='button'><a href="story.html" target ="_blank"  >Click here to view my story</a></button>
-        
-            <section id="My Apps">
-<h1> My Apps </h1>    
-    <div class="line"></div>
-<iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/YgovzWl-qFQj7IGtYLhzJOJO5MeItomAt7A5sjpY_XM/embed"></iframe>
-</section>    
-        
-</section>
-     <h1>My Inspiration</h1>
+    <div class="container">
 
-        <div class="line"></div>
-        <div id="myname">
-            click on the pictures to view my Inspiration</div>
 
-        <div>
-
-            <span>
-                <!--  Add the link, "https://www.jkrowling.com/" to the anchor tag below -->
-                <a href="https://www.jkrowling.com/" target="_blank">
-                    <img id="picture" src="jkrowling.jpg">
-                </a>
-            </span>
-
-            <span>
-
-                <a href="https://en.wikipedia.org/wiki/Arundhati_Roy" target="_blank">
-                    <img id="picture" src="arundhati.jpg">
-                </a>
-            </span>
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="books">
+            <h2 class="text-capitalize ">Sports</h2>
         </div>
 
-    </section>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
-</body></html>
+            <h3>Michael Jordan</h3>
+            <h4>
+                <mark class="header_entrepreneur">
+                    <i>
+                        <sup><i class="fa fa-quote-left"></i></sup>
+                        Never say never because limits, like fears, are often just illusions.
+                        <!-- Add class fa fa-quote-right  below-->
+                        <sup><i class="fa fa-quote-right"></i></sup>
+                    </i>
+                </mark>
+            </h4>
+
+        </div>
+
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <h2 class="text-capitalize ">List of Sports</h2>
+        </div>
+
+        <!--add data-toggle="modal" below in the div tag-->
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 sport" data-toggle=" modal" data-target="#basketball">
+            <img src="basketball.jpg" class="img-responsive">
+            <hr>
+            <p class="text-primary">Basketball</p>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="basketball">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">basketball</h4>
+                    </div>
+                    <!--add bootstrap class modal-body-->
+                    <div class=" modal-body">
+                        <img src="basketball.jpg" class="img-responsive img_modal">
+                        <p class="p_modal">Basketball, game played between two teams of five players each on a rectangular court, usually indoors. Each team tries to score by tossing the ball through the opponent’s goal, an elevated horizontal hoop and net called a basket.<p>
+                            <a href="https://en.wikipedia.org/wiki/Basketball"><b>ABOUT BASKETBALL</b></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+</body>
+
+</html>
